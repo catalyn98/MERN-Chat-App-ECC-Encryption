@@ -121,12 +121,12 @@ messageSchema.methods.encryptMessage = async function () {
           " biți"
       );
       console.log(
-        "⏱️   Timpul necesar pentru generarea cheii publice: " +
+        "⏱️  Timpul necesar pentru generarea cheii publice: " +
           timeGeneratePublicKey +
           " ms"
       );
       console.log(
-        "⏱️   Timpul necesar pentru generarea cheii private: " +
+        "⏱️  Timpul necesar pentru generarea cheii private: " +
           timeGeneratePrivateKey +
           " ms"
       );
